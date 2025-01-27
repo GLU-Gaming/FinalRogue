@@ -3,7 +3,7 @@
 [RequireComponent(typeof(CharacterController))]
 public class Adventurer : MonoBehaviour
 {
-    [SerializeField] private float runSpeed = 40f; // Movement speed.
+    [SerializeField] public float runSpeed = 40f; // Movement speed.
 
     [SerializeField] private bool doubleJump = true; // Enable for double jump.
     private int maxJumps = 1;
